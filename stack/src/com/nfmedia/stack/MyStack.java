@@ -81,7 +81,7 @@ public class MyStack<T> {
         // order为true，表示从栈顶像栈底显示，为false表示从栈底像栈顶方向显示元素
         if (order) {
             for (int i = stackTop - 1; i >= 0; i--) {
-                System.out.println(statckList[i]);
+                System.out.print(statckList[i]);
             }
         } else {
             for (int i = 0; i < stackTop; i++) {
